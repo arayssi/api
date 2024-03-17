@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.UserList {
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.UserList h1 {
+  margin-bottom: 10px;
+}
+
+.UserList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.UserList li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.UserList li:last-child {
+  border-bottom: none;
+}
+
+.UserList li:hover {
+  background-color: #f0f0f0;
+}
+
+.App-header h1 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.UserList a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.UserList a:hover {
+  text-decoration: underline;
+}
+
+.UserList li:hover {
+  background-color: #f0f8ff;
+  cursor: pointer;
+}
+
+.UserList li + li {
+  margin-top: 10px;
+}
+
+.UserList {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.UserList strong {
+  font-weight: bold;
+}
+
+body {
+  background-color: #c0a2df;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2;
+  flex-wrap: wrap;
+}
+
+.list-container > div {
+  padding: 10px;
+}
+
+.list-container div ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.list-container div ul li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.list-container div ul li strong {
+  margin-right: 10px;
+}
